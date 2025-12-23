@@ -13,7 +13,6 @@
 	},
 	"dependencies": {
 		"hono": "4.11.1",
-		"pngjs": "^7.0.0",
 		"qrcode-generator": "^2.0.4",
 		"react": "19.2.1",
 		"react-dom": "19.2.1"
