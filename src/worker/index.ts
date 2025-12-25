@@ -5,7 +5,7 @@ const app = new Hono<{ Bindings: Env }>();
 
 app.get("/api/", (c) => c.json({ name: "Cloudflare" }));
 
-app.get("/api/status", (c) => c.text("OK", 200));
+app.get("/api/status", (c) => c.json("OK", 200));
 
 app.get("/api/qrcode", async (c) => {
     const text = c.req.query("text");
